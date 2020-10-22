@@ -14,7 +14,8 @@ const run = async () => {
         //reemplazar "mongodb://localhost/mongoTest" con la dirección a tu base en MongoAtlas o MongoCompass segun corresponda.
         const connection = await mongoose.connect('mongodb://localhost/mongoTest', {
         useNewUrlParser: true,
-        useUnifiedTopology: true
+        useUnifiedTopology: true,
+        useFindAndModify:false
         });
         const adminBro = new AdminBro ({
             Database: [connection],
