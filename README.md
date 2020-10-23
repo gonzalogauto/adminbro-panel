@@ -2,6 +2,8 @@
 
 Un panel auto-generado para tu aplicación de Node.js que te va a permitir conectarte a bases de datos como MongoDB y realizar operaciones del tipo CRUD (Create-Read-Update-Delete).
 
+[https://adminbro.com/] Ver documentación sobre Admin-Bro.
+
 ## Contenido:
 
 - Pantalla de login.
