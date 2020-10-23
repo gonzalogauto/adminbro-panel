@@ -5,6 +5,7 @@ const mongoose = require('mongoose')
 const express = require('express')
 const app = express()
 const bcrypt = require('bcrypt')
+const Usuario = require('./models/usuario')
 const { customResources } = require('./src/resources');
 const { customTranslation } = require('./src/translations')
 
