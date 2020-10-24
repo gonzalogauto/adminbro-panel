@@ -12,7 +12,8 @@ module.exports={
           resource: Orden, 
           options: {
             parent:{
-                name:'Inicio'
+                name:'Inicio',
+                icon:'Home'
             },
             listProperties: ['mesaId', 'author','cantidad','date'],
             properties:{
@@ -32,7 +33,8 @@ module.exports={
           resource: Producto, 
           options: {
               parent:{
-                name:'Inicio'
+                name:'Inicio',
+                icon:'Home'
               },
               listProperties: ['nombre', 'descripcion','tipoCombo','precio'],
               properties:{
@@ -54,8 +56,10 @@ module.exports={
             resource: Usuario,
             options: {
               parent:{
-                name:'Seguridad'
+                name:'Seguridad',
+                icon:'Security'
               },
+              listProperties: ['title', 'email','role'],
               properties: {
                 encryptedPassword: { isVisible: false },
                 password: {
