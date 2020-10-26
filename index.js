@@ -8,6 +8,7 @@ const bcrypt = require('bcrypt')
 const Usuario = require('./models/usuario')
 const { customResources } = require('./src/resources');
 const { customTranslation } = require('./src/translations')
+require('dotenv').config()
 
 AdminBro.registerAdapter(AdminBroMongoose)
 
